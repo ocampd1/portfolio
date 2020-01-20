@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+/*--- will  need to go in style sheet for fonts ---*/
+
+@font-face {
+  font-family: 'Teko';
+  src: url(/assets/fonts/Teko/Teko-Bold.ttf) format("truetype");
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Teko';
+  src: url(/assets/fonts/Teko/Teko-SemiBold.ttf) format("truetype");
+  font-style: semi-bold;
+}
+
+@font-face {
+  font-family: 'Open-Sans';
+  src: url(/assets/fonts/Open-Sans/OpenSans-Regular.ttf) format("truetype");
+  font-style: regular;
+}
+
+
+h1 {
+  font-family: Teko;
+  font-style: bold;
+  text-transform: uppercase;
+  font-size: 80px !important;
+}
+
+p {
+  font-family: Open-Sans;
+  font-style: regular;
+}
+/*--- will  need to go in style sheet for fonts ---*/
+body {
+  background-color: #EF3E23 !important;
+}

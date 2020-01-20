@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { AppHomeComponent } from './app-home/app-home.component';
-import { AppHeaderComponent } from './app-header/app-header.component';
-import { AppBodyComponent } from './app-body/app-body.component';
+import { AppComponent } from './shared/app-component/app.component';
+import { AppHomeComponent } from './components/app-home/app-home.component';
+import { AppHeaderComponent } from './shared/app-header/app-header.component';
+import { AppBodyComponent } from './shared/app-body/app-body.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AppBodyComponent } from './app-body/app-body.component';
     AppBodyComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
