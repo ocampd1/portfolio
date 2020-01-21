@@ -1,23 +1,32 @@
 .splash-screen {
   height: 100vh;
   width: 100%;
-  background-color: #29398B;
-  margin: auto auto 50px auto;
+  background: url("~src/assets/images/portfolio-bg.png");
+
 }
 
+.splash-screen-back {
+  height: 100vh;
+  width: 100%;
+  background: url("~src/assets/images/portfolio-bg.png");
+}
+
+/*.splash-screen {
+  height: 100vh;
+  width: 100%;
+  background-color: #29398B;
+  margin: auto auto 50px auto;
+}*/
+
 .splash-text {
-  width: 50%;
-  height: 100%;
-  color: white;
-  float: left;
-  padding: 15em 2% 2% 10%;
+  align-self: center;
+  padding-left: 5%;
 }
 
 
 .splash-image {
-  width: 50%;
-  height: 100%;
-  float: right;
+ vertical-align: middle;
+padding: 5%;
 }
 
 .section-break-featured {
@@ -34,7 +43,8 @@
 .project-section {
   height: 100vh;
   width: 100%;
-  background-color: white;
+  background: white;
+  margin: auto auto 50px auto;
 }
 
 .process-section {
